@@ -1,0 +1,1 @@
+- VSCode can be used in the browser. simply visit vscode.dev
