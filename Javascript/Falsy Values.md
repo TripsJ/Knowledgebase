@@ -15,6 +15,3 @@ NaN	| NaN — not a number.
 document.all	|Objects are falsy if and only if they have the [[IsHTMLDDA]] internal slot. That slot only exists in document.all and cannot be set using JavaScript.
 
 
-
-
-
