@@ -1,11 +1,37 @@
 {
-  "extends": [
-    "plugin:prettier/recommended"
-  ],
+  "extends":  ["airbnb", "prettier"],
 
   "plugins": ["prettier"],
 
   "rules": {
     "prettier/prettier": "error"
-  }
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion" : "latest"
+},
+"ignorePatterns": [
+  "node_modules",
+  "build",
+  "dist",
+  "public"
+],
+"env": {
+  "browser": true,
+  "node": true
 }
+}
+
+
+// add this to your config . json to run on save
+// {
+//   "eslint.validate": [
+//     "javascript",
+//     "javascriptreact",
+//     "typescript",
+//     "typescriptreact"
+//   ],
+//   "editor.codeActionsOnSave": {
+//     "source.fixAll.eslint": true,
+//   },
+// }

@@ -5,6 +5,6 @@
   "useTabs": false
 }
 
-//run npm i -D eslint eslint-config-prettier eslint-plugin-prettier prettier and install these vscode plugins
+//run npm i -D eslint eslint-config-prettier eslint-config-airbnb eslint-plugin-prettier prettier and install these vscode plugins
 //ext install dbaeumer.vscode-eslint
 //ext install esbenp.prettier-vscode
